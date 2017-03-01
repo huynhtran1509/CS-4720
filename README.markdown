@@ -1,3 +1,11 @@
+# Before Running
+Go to this link to download the font files https://typekit.com/fonts/proxima-nova. Once downloaded open the Xcode project and drag and drop the fonts into the font folder. The app will crash if you do not have the fonts.
+
+Note: If you can't download proxima-nova you can use a system font. Just go into the `Theme` class and change out the font names.
+
+# UX assets
+You can download the UX assets here.
+
 # Exercises
 
 ## HeaderAnimationView
