@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Nm2-Kg-B8q">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PhotoSharing" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="banner" translatesAutoresizingMaskIntoConstraints="NO" id="k3J-5C-zrQ">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="HVI-aZ-tuP">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="k3J-5C-zrQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="E4O-cu-EdI"/>
+                            <constraint firstItem="HVI-aZ-tuP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LPA-P8-hvP"/>
+                            <constraint firstItem="k3J-5C-zrQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="QQY-1H-2Si"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="HVI-aZ-tuP" secondAttribute="bottom" id="XlQ-TY-Ma4"/>
+                            <constraint firstAttribute="trailing" secondItem="k3J-5C-zrQ" secondAttribute="trailing" id="lTh-mF-4kz"/>
+                            <constraint firstItem="HVI-aZ-tuP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="nvh-F0-VWi"/>
+                            <constraint firstAttribute="trailing" secondItem="HVI-aZ-tuP" secondAttribute="trailing" id="r88-Uf-t9V"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="in4-AQ-htv">
+                        <barButtonItem key="backBarButtonItem" title=" " id="4QI-7u-eMw"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="photosTable" destination="HVI-aZ-tuP" id="wYa-am-sAh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1873" y="125"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EBK-TA-ViQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Nm2-Kg-B8q" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="Yw4-Ka-ZD5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ObE-oa-H8E"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e3c-TG-6T5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="banner" width="375" height="180"/>
+    </resources>
+</document>
