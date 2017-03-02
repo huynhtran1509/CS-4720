@@ -24,19 +24,18 @@
 		49BF15BF1E5BEE2B00AD8482 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF15BE1E5BEE2B00AD8482 /* UserService.swift */; };
 		49BF15C21E5BF3EC00AD8482 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF15C11E5BF3EC00AD8482 /* ProfileHeaderView.swift */; };
 		49BF15C41E5BF3FE00AD8482 /* ProfileHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF15C31E5BF3FE00AD8482 /* ProfileHeaderView.xib */; };
+		49C74F5F1E674CC80089D225 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49C74F551E674CC80089D225 /* OpenSans-Bold.ttf */; };
+		49C74F601E674CC80089D225 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49C74F561E674CC80089D225 /* OpenSans-BoldItalic.ttf */; };
+		49C74F611E674CC80089D225 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49C74F571E674CC80089D225 /* OpenSans-ExtraBold.ttf */; };
+		49C74F621E674CC80089D225 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49C74F581E674CC80089D225 /* OpenSans-ExtraBoldItalic.ttf */; };
+		49C74F631E674CC80089D225 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49C74F591E674CC80089D225 /* OpenSans-Italic.ttf */; };
+		49C74F641E674CC80089D225 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49C74F5A1E674CC80089D225 /* OpenSans-Light.ttf */; };
+		49C74F651E674CC80089D225 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49C74F5B1E674CC80089D225 /* OpenSans-LightItalic.ttf */; };
+		49C74F661E674CC80089D225 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49C74F5C1E674CC80089D225 /* OpenSans-Regular.ttf */; };
+		49C74F671E674CC80089D225 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49C74F5D1E674CC80089D225 /* OpenSans-Semibold.ttf */; };
+		49C74F681E674CC80089D225 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49C74F5E1E674CC80089D225 /* OpenSans-SemiboldItalic.ttf */; };
+		49C74F6A1E674D3B0089D225 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49C74F691E674D3B0089D225 /* LICENSE.txt */; };
 		49CEF9DB1E669C9800620135 /* HeaderAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEF9DA1E669C9800620135 /* HeaderAnimationView.swift */; };
-		49DF9CC31E63414E00E177D7 /* Proxima-Nova-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49DF9CB71E63414E00E177D7 /* Proxima-Nova-Thin.otf */; };
-		49DF9CC41E63414E00E177D7 /* ProximaNova-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49DF9CB81E63414E00E177D7 /* ProximaNova-Black.otf */; };
-		49DF9CC51E63414E00E177D7 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49DF9CB91E63414E00E177D7 /* ProximaNova-Bold.otf */; };
-		49DF9CC61E63414E00E177D7 /* ProximaNova-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49DF9CBA1E63414E00E177D7 /* ProximaNova-BoldIt.otf */; };
-		49DF9CC71E63414E00E177D7 /* ProximaNova-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49DF9CBB1E63414E00E177D7 /* ProximaNova-Extrabold.otf */; };
-		49DF9CC81E63414E00E177D7 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49DF9CBC1E63414E00E177D7 /* ProximaNova-Light.otf */; };
-		49DF9CC91E63414E00E177D7 /* ProximaNova-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49DF9CBD1E63414E00E177D7 /* ProximaNova-LightItalic.otf */; };
-		49DF9CCA1E63414E00E177D7 /* ProximaNova-RegItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49DF9CBE1E63414E00E177D7 /* ProximaNova-RegItalic.otf */; };
-		49DF9CCB1E63414E00E177D7 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49DF9CBF1E63414E00E177D7 /* ProximaNova-Regular.otf */; };
-		49DF9CCC1E63414E00E177D7 /* ProximaNova-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49DF9CC01E63414E00E177D7 /* ProximaNova-RegularItalic.otf */; };
-		49DF9CCD1E63414E00E177D7 /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49DF9CC11E63414E00E177D7 /* ProximaNova-Semibold.otf */; };
-		49DF9CCE1E63414E00E177D7 /* ProximaNova-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49DF9CC21E63414E00E177D7 /* ProximaNova-SemiboldItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,19 +79,18 @@
 		49BF15BE1E5BEE2B00AD8482 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		49BF15C11E5BF3EC00AD8482 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		49BF15C31E5BF3FE00AD8482 /* ProfileHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileHeaderView.xib; sourceTree = "<group>"; };
+		49C74F551E674CC80089D225 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		49C74F561E674CC80089D225 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		49C74F571E674CC80089D225 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		49C74F581E674CC80089D225 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		49C74F591E674CC80089D225 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		49C74F5A1E674CC80089D225 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		49C74F5B1E674CC80089D225 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		49C74F5C1E674CC80089D225 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		49C74F5D1E674CC80089D225 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		49C74F5E1E674CC80089D225 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		49C74F691E674D3B0089D225 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		49CEF9DA1E669C9800620135 /* HeaderAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderAnimationView.swift; sourceTree = "<group>"; };
-		49DF9CB71E63414E00E177D7 /* Proxima-Nova-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima-Nova-Thin.otf"; sourceTree = "<group>"; };
-		49DF9CB81E63414E00E177D7 /* ProximaNova-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Black.otf"; sourceTree = "<group>"; };
-		49DF9CB91E63414E00E177D7 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
-		49DF9CBA1E63414E00E177D7 /* ProximaNova-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-BoldIt.otf"; sourceTree = "<group>"; };
-		49DF9CBB1E63414E00E177D7 /* ProximaNova-Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Extrabold.otf"; sourceTree = "<group>"; };
-		49DF9CBC1E63414E00E177D7 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
-		49DF9CBD1E63414E00E177D7 /* ProximaNova-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-LightItalic.otf"; sourceTree = "<group>"; };
-		49DF9CBE1E63414E00E177D7 /* ProximaNova-RegItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegItalic.otf"; sourceTree = "<group>"; };
-		49DF9CBF1E63414E00E177D7 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
-		49DF9CC01E63414E00E177D7 /* ProximaNova-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegularItalic.otf"; sourceTree = "<group>"; };
-		49DF9CC11E63414E00E177D7 /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
-		49DF9CC21E63414E00E177D7 /* ProximaNova-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-SemiboldItalic.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,18 +208,17 @@
 		49DF9CB61E63410E00E177D7 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				49DF9CB71E63414E00E177D7 /* Proxima-Nova-Thin.otf */,
-				49DF9CB81E63414E00E177D7 /* ProximaNova-Black.otf */,
-				49DF9CB91E63414E00E177D7 /* ProximaNova-Bold.otf */,
-				49DF9CBA1E63414E00E177D7 /* ProximaNova-BoldIt.otf */,
-				49DF9CBB1E63414E00E177D7 /* ProximaNova-Extrabold.otf */,
-				49DF9CBC1E63414E00E177D7 /* ProximaNova-Light.otf */,
-				49DF9CBD1E63414E00E177D7 /* ProximaNova-LightItalic.otf */,
-				49DF9CBE1E63414E00E177D7 /* ProximaNova-RegItalic.otf */,
-				49DF9CBF1E63414E00E177D7 /* ProximaNova-Regular.otf */,
-				49DF9CC01E63414E00E177D7 /* ProximaNova-RegularItalic.otf */,
-				49DF9CC11E63414E00E177D7 /* ProximaNova-Semibold.otf */,
-				49DF9CC21E63414E00E177D7 /* ProximaNova-SemiboldItalic.otf */,
+				49C74F691E674D3B0089D225 /* LICENSE.txt */,
+				49C74F551E674CC80089D225 /* OpenSans-Bold.ttf */,
+				49C74F561E674CC80089D225 /* OpenSans-BoldItalic.ttf */,
+				49C74F571E674CC80089D225 /* OpenSans-ExtraBold.ttf */,
+				49C74F581E674CC80089D225 /* OpenSans-ExtraBoldItalic.ttf */,
+				49C74F591E674CC80089D225 /* OpenSans-Italic.ttf */,
+				49C74F5A1E674CC80089D225 /* OpenSans-Light.ttf */,
+				49C74F5B1E674CC80089D225 /* OpenSans-LightItalic.ttf */,
+				49C74F5C1E674CC80089D225 /* OpenSans-Regular.ttf */,
+				49C74F5D1E674CC80089D225 /* OpenSans-Semibold.ttf */,
+				49C74F5E1E674CC80089D225 /* OpenSans-SemiboldItalic.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -336,24 +333,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49DF9CC51E63414E00E177D7 /* ProximaNova-Bold.otf in Resources */,
-				49DF9CCA1E63414E00E177D7 /* ProximaNova-RegItalic.otf in Resources */,
+				49C74F6A1E674D3B0089D225 /* LICENSE.txt in Resources */,
+				49C74F681E674CC80089D225 /* OpenSans-SemiboldItalic.ttf in Resources */,
 				49BF15891E5BAC5900AD8482 /* LaunchScreen.storyboard in Resources */,
-				49DF9CC61E63414E00E177D7 /* ProximaNova-BoldIt.otf in Resources */,
-				49DF9CC71E63414E00E177D7 /* ProximaNova-Extrabold.otf in Resources */,
+				49C74F631E674CC80089D225 /* OpenSans-Italic.ttf in Resources */,
+				49C74F5F1E674CC80089D225 /* OpenSans-Bold.ttf in Resources */,
+				49C74F611E674CC80089D225 /* OpenSans-ExtraBold.ttf in Resources */,
 				49BF15C41E5BF3FE00AD8482 /* ProfileHeaderView.xib in Resources */,
-				49DF9CC81E63414E00E177D7 /* ProximaNova-Light.otf in Resources */,
-				49DF9CC41E63414E00E177D7 /* ProximaNova-Black.otf in Resources */,
-				49DF9CC91E63414E00E177D7 /* ProximaNova-LightItalic.otf in Resources */,
-				49DF9CC31E63414E00E177D7 /* Proxima-Nova-Thin.otf in Resources */,
-				49DF9CCD1E63414E00E177D7 /* ProximaNova-Semibold.otf in Resources */,
 				49BF15B81E5BBB5500AD8482 /* StatusTableViewCell.xib in Resources */,
-				49DF9CCB1E63414E00E177D7 /* ProximaNova-Regular.otf in Resources */,
+				49C74F641E674CC80089D225 /* OpenSans-Light.ttf in Resources */,
 				49BF15861E5BAC5900AD8482 /* Assets.xcassets in Resources */,
-				49DF9CCC1E63414E00E177D7 /* ProximaNova-RegularItalic.otf in Resources */,
 				49BF15841E5BAC5900AD8482 /* Main.storyboard in Resources */,
+				49C74F671E674CC80089D225 /* OpenSans-Semibold.ttf in Resources */,
+				49C74F621E674CC80089D225 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				49C74F661E674CC80089D225 /* OpenSans-Regular.ttf in Resources */,
+				49C74F601E674CC80089D225 /* OpenSans-BoldItalic.ttf in Resources */,
+				49C74F651E674CC80089D225 /* OpenSans-LightItalic.ttf in Resources */,
 				49BF15B21E5BAF7B00AD8482 /* ProfileCollectionTableViewCell.xib in Resources */,
-				49DF9CCE1E63414E00E177D7 /* ProximaNova-SemiboldItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

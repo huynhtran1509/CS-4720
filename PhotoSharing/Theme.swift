@@ -38,59 +38,20 @@ public class Theme
     }
 
     // MARK: Fonts
-    public static func regularItalicWithSize(size: CGFloat) -> UIFont
-    {
-        return UIFont(name: "ProximaNova-RegularIt", size: size)!
-    }
-
-    public static func lightItalicWithSize(size: CGFloat) -> UIFont
-    {
-        return UIFont(name: "ProximaNova-LightIt", size: size)!
-    }
-
-    public static func blackWithSize(size: CGFloat) -> UIFont
-    {
-        return UIFont(name: "ProximaNova-Black", size: size)!
-    }
-
-    public static func extraBoldWithSize(size: CGFloat) -> UIFont
-    {
-        return UIFont(name: "ProximaNova-Extrabld", size: size)!
-    }
-
-    public static func boldItalixWithSize(size: CGFloat) -> UIFont
-    {
-        return UIFont(name: "ProximaNova-BoldIt", size: size)!
-    }
 
     public static func regularWithSize(size: CGFloat) -> UIFont
     {
-        return UIFont(name: "ProximaNova-Regular", size: size)!
-    }
-
-    public static func thinWithSize(size: CGFloat) -> UIFont
-    {
-        return UIFont(name: "ProximaNovaT-Thin", size: size)!
-    }
-
-    public static func boldWithSize(size: CGFloat) -> UIFont
-    {
-        return UIFont(name: "ProximaNova-Bold", size: size)!
+        return UIFont(name: "OpenSans", size: size)!
     }
 
     public static func lightWithSize(size: CGFloat) -> UIFont
     {
-        return UIFont(name: "ProximaNova-Light", size: size)!
-    }
-
-    public static func semiBoldItalicWithSize(size: CGFloat) -> UIFont
-    {
-        return UIFont(name: "ProximaNova-SemiboldIt", size: size)!
+        return UIFont(name: "OpenSans-Light", size: size)!
     }
 
     public static func semiBoldWithSize(size: CGFloat) -> UIFont
     {
-        return UIFont(name: "ProximaNova-Semibold", size: size)!
+        return UIFont(name: "OpenSans-Semibold", size: size)!
     }
 
     // MARK: AttributeString helpers
